@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <style>
+    .catalog_wrapper {
+    display: block;
+    overflow: visible;
+    width: 100%;
+    max-width: 1440px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 40px 30px 40px 270px;
+    }
+  </style>
+  <div class="catalog_wrapper">
+
+  
+  <h1> Catalog </h1>
+
+  {% if batteries %}
+  
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-md-3">
+    {% for battery in batteries %}
+          <div class="col d-flex align-items-stretch">
+            <div class="card">
+              <img class="card-img-top" src="{{ battery.image.url }}" alt="{{battery.name}}">
+              <div class="card-body">
+                <h4 class="card-title">{{ battery.name }}</h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title
+                  and make up the bulk of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+    <h1> No batteries avalable </h1>
+  {% endif %}
+</div>  
+{% endblock %}
