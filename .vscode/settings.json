@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "/Users/newuser/.local/share/virtualenvs/django-car-batt-4lDgAbH-/bin/python"
+  "python.pythonPath": "/Users/newuser/Projects/django-car-batt/django-car/bin/python3.7",
+  "git.ignoreLimitWarning": true
 }

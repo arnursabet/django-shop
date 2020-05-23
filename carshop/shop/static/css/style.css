@@ -1,0 +1,17 @@
+
+.main-wrapper {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.main { 
+  display: block;
+  width: 100%;
+  min-width: 300px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 30px 40px 270px;
+}
+#global {
+  position: relative;
+}

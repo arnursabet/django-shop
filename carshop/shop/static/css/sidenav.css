@@ -6,8 +6,8 @@
   left: 0;
   top: 0;
   width: 100%;
+  max-width: 240px;
   background-color: #010101;
-  padding: 30px;
 }
 /* .sidenav nav {
   margin: 30px 15px !important;
@@ -24,15 +24,3 @@
   color: #f1f1f1;
 }
 
-.main { /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-.main-wrapper {
-  width: 100%;
-  display: block;
-  overflow: hidden;
-}
-
-#global {
-  position: relative;
-}
