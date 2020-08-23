@@ -7,7 +7,7 @@ REPOSITORY_ROOT = os.path.dirname(BASE_DIR)
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'q%mr)&3i%9l^mjlw0s&8%9dp*pp(^io)l_y2n63sv++f%5xsyv'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
