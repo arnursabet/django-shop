@@ -1,1 +1,1 @@
-# carbatt-ecommerce
+# django-shop
